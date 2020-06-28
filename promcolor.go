@@ -99,7 +99,7 @@ func main() {
 		panic(err)
 	}
 
-	if info.Mode()&os.ModeCharDevice != 0 || info.Size() <= 0 {
+	if info.Mode()&os.ModeCharDevice != 0 {
 		fmt.Println("promcolor", version, "- Colorize piped Prometheus metrics.")
 		fmt.Println("\nUsage: curl http://127.0.0.1:9100/metrics | promcolor")
 		return
