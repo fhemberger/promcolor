@@ -1,7 +1,9 @@
 # promcolor
 
-Colorize piped Prometheus metrics.  
+Colorize piped Prometheus metrics in the terminal.  
 Browser extension: [prometheus-formatter](https://github.com/fhemberger/prometheus-formatter)
+
+![Screenshot](.github/screenshot.png)
 
 ## Installation
 
