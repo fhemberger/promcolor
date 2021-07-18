@@ -40,10 +40,12 @@ var (
 	ValueColor      = Magenta
 )
 
+// PrometheusLabel is a single key/value combination
 type PrometheusLabel struct {
 	Key, Value string
 }
 
+// PrometheusMetric describes a single metric
 type PrometheusMetric struct {
 	Name   string
 	Labels []PrometheusLabel
