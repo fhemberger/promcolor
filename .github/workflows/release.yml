@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0
 
       - name: Running govulncheck
-        uses: Templum/govulncheck-action@v0.0.4
+        uses: Templum/govulncheck-action@v0.0.5
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
